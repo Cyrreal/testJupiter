@@ -1,0 +1,46 @@
+.container {
+  max-width: 1170px;
+  margin: 75px auto;
+}
+
+.menu {
+  width: 563px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.flex li:hover {
+  color: #16cd53;
+  transition: 0.2s;
+}
+
+.select {
+  padding: 5px;
+  width: 563px;
+  height: 52px;
+}
+
+@media (max-width: 786px) {
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  .select {
+    width: 370px;
+  }
+}
+
+@media (max-width: 569px) {
+  .menu {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+  margin: 75px auto;
+  max-width: 1170px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 14px;
+  color: #391400;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px 0px #00000038;
+  border-radius: 4px;
+  border: none;
+  width: 170px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.inactive {
+  display: none;
+}
